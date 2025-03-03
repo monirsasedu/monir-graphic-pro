@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #2d2d2d;
+            font-family: Arial, serif;
+            font-weight: bold;
+            /* color: #ed1f24; */
+            color: cyan;
+        }
+
+        .cd-intro {
+            margin: 4em auto;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .cd-intro {
+                margin: 5em auto;
+            }
+        }
+
+        @media only screen and (min-width: 1170px) {
+            .cd-intro {
+                margin: 6em auto;
+            }
+        }
+
+        .cd-headline {
+            font-size: 3rem;
+            line-height: 1.2;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .cd-headline {
+                font-size: 4.4rem;
+                font-weight: 300;
+            }
+        }
+
+        @media only screen and (min-width: 1170px) {
+            .cd-headline {
+                font-size: 6rem;
+            }
+        }
+
+        .cd-words-wrapper {
+            display: inline-block;
+            position: relative;
+            text-align: left;
+        }
+
+        .cd-words-wrapper b {
+            display: inline-block;
+            position: absolute;
+            white-space: nowrap;
+            left: 0;
+            top: 0;
+        }
+
+        .cd-words-wrapper b.is-visible {
+            position: relative;
+        }
+
+        .no-js .cd-words-wrapper b {
+            opacity: 0;
+        }
+
+        .no-js .cd-words-wrapper b.is-visible {
+            opacity: 1;
+        }
+
+        /* -------------------------------- 
+
+xclip 
+
+-------------------------------- */
+
+        .cd-headline.clip span {
+            display: inline-block;
+            padding: .2em 0;
+        }
+
+        .cd-headline.clip .cd-words-wrapper {
+            overflow: hidden;
+            vertical-align: top;
+        }
+
+        .cd-headline.clip .cd-words-wrapper::after {
+            /* line */
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background-color: #3d3d3d;
+        }
+
+        .cd-headline.clip b {
+            opacity: 0;
+        }
+
+        .cd-headline.clip b.is-visible {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header-caption" id="page-top">
+        <!-- type headline start-->
+        <h3 class="cd-headline clip is-full-width">
+            <!-- STATIC TEXT -->
+            <span>I'm </span>
+            <!-- ROTATING TEXT -->
+            <span class="cd-words-wrapper" style="width: 178px;">
+                <b class="is-visible">SuperCool</b>
+                <b class="is-hidden"> a Professional coder</b>
+                <b class="is-hidden">a Developer</b>
+            </span>
+            <!-- STATIC TEXT -->
+            <span>.</span>
+        </h3>
+        <!-- type headline end -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+       
+    </script>
+
+</body>
+
+</html>

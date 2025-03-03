@@ -1,0 +1,58 @@
+.contact-services-heading h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  span {
+    /* color: #fc3f5c; */
+    color: #00C9FF;
+  }
+.contact-form {
+    /* max-width: 800px; */
+    /* margin: 2rem auto; */
+    /* padding: 2rem; */
+    color: #fff;
+}
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* border: 1px solid #ff4b5c; */
+    border: 1px solid #00C9FF;
+    color: white;
+}
+..form-control ::placeholder{
+    color: #fff;
+}
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    /* border-color: #ff4b5c; */
+    border-color: #00C9FF;
+    box-shadow: 0 0 0 0.2rem  #00c8ff4b;
+}
+.btn-submit {
+    /* background-color: #ff4b5c; */
+    background-color: #00C9FF;
+    border: none;
+    padding: 0.5rem 2rem;
+}
+.contact-icon {
+    /* color: #ff4b5c; */
+    color: #00C9FF;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+::placeholder :active{
+    color: #fff;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255); /* Placeholder text color */
+    font-style: italic; /* Optional: Change font style */
+  }

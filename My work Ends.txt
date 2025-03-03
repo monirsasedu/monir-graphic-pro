@@ -1,0 +1,170 @@
+<div id="Portfolio" class="container portfolio-section services-heading">
+        <h1 class="section-title">My <span>Works</span></h1>
+        <p class="section-description">I provide multiple services from website design and development to digital
+            marketing and advertising.</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="photography">Photography</button>
+            <button class="filter-btn" data-filter="cv">CV</button>
+            <button class="filter-btn" data-filter="social-design">Social Media Design</button>
+            <button class="filter-btn" data-filter="b-card">Business Card</button>
+            <button class="filter-btn" data-filter="b-card">Web Design</button>
+            <button class="filter-btn" data-filter="b-card">Letterhead</button>
+        </div>
+
+        <div class="row" id="portfolio-grid">
+
+
+
+
+            <!-- Design Items -->
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="design " data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/513915211130639.671d354b2eb04.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Web Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="design" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/design 1.jpg" alt="Design Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>UI Design</h3>
+                        <p>Modern user interface design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="design" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Design Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>App Design</h3>
+                        <p>Mobile application design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing Items -->
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="marketing" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Marketing Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Digital Marketing</h3>
+                        <p>Social media campaign</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="marketing" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Marketing Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>SEO</h3>
+                        <p>Search engine optimization</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="marketing" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Marketing Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Content Marketing</h3>
+                        <p>Content strategy and creation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photography Items -->
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="photography fade-up" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Photography 1">
+                    <div class="portfolio-overlay">
+                        <h3>Portrait</h3>
+                        <p>Professional photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="photography" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Photography 2">
+                    <div class="portfolio-overlay">
+                        <h3>Landscape</h3>
+                        <p>Nature photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="photography" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="/api/placeholder/400/400" alt="Photography 3">
+                    <div class="portfolio-overlay">
+                        <h3>Commercial</h3>
+                        <p>Product photography</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Card  Start-->
+            <!-- Business Card Start -->
+
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/business card 1.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/busines card 2.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/Business card 3.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/business card 4.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/Business Card 5.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 portfolio-item" data-category="b-card" data-aos="zoom-in">
+                <div class="portfolio-item-inner">
+                    <img src="my work/Business Card 6.jpg" alt="Design Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Business Card Design</h3>
+                        <p>Creative web design project</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Card Ends-->
+            <!-- Business Card Ends-->
+        </div>
+    </div>
